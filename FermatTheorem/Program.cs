@@ -15,14 +15,20 @@ namespace FermatTheorem
           {
             for (int n = 3; n < 10; n++)
             {
+              if (Math.Pow(a, n) > ulong.MaxValue || Math.Pow(b, n) > ulong.MaxValue || Math.Pow(c, n) > ulong.MaxValue)
+              {
+                Console.WriteLine($"Values exceed ulong max value: {ulong.MaxValue}");
+                return;
+              }
+
               if (Math.Pow(a, n) + Math.Pow(b, n) == Math.Pow(c, n))
               {
-                Console.WriteLine($"Found a counterexample: {a}^{n} + {b}^{n} = {c}^{n}");
+                Console.WriteLine($"Found a counterexample: {a}^{n} + {b}^{n} = {c}^{n} and {Math.Pow(a, n)} + {Math.Pow(b, n)} = {Math.Pow(c, n)}");
                 return;
               }
 
               compteur++;
-              Console.WriteLine($"Checked {compteur} combinations: a={a}, b={b}, c={c}, n={n}");
+              Console.WriteLine($"Checked {compteur} combinations: a={a}, b={b}, c={c}, n={n} and {Math.Pow(a, n)} + {Math.Pow(b, n)} = {Math.Pow(c, n)}");
             }
           }
         }
