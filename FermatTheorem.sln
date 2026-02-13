@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FermatTheoremBigInteger", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FermatN1", "FermatN1\FermatN1.csproj", "{E28652EB-DA67-4CE3-96AC-97B3B4DE810D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FermatN2", "FermatN2\FermatN2.csproj", "{EB5AF281-6C5D-41C0-846E-3DBE741E118F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E28652EB-DA67-4CE3-96AC-97B3B4DE810D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E28652EB-DA67-4CE3-96AC-97B3B4DE810D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E28652EB-DA67-4CE3-96AC-97B3B4DE810D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5AF281-6C5D-41C0-846E-3DBE741E118F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5AF281-6C5D-41C0-846E-3DBE741E118F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5AF281-6C5D-41C0-846E-3DBE741E118F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5AF281-6C5D-41C0-846E-3DBE741E118F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
