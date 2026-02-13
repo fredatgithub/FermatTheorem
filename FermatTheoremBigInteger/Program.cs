@@ -28,7 +28,7 @@ namespace FermatTheoremBigInteger
               }
 
               compteur++;
-              Console.WriteLine($"Checked {compteur} combinations: a={a}, b={b}, c={c}, n={n}");
+              Console.WriteLine($"Checked {compteur} combinations: a={a}, b={b}, c={c}, n={n} and {aPow} +  {bPow} =  {cPow}");
             }
           }
         }
