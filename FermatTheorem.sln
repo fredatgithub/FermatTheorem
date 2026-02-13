@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36930.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FermatTheorem", "FermatTheorem\FermatTheorem.csproj", "{04DAE7DB-0F5C-48CD-84B9-E6827188412F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FermatTheoremBigInteger", "FermatTheoremBigInteger\FermatTheoremBigInteger.csproj", "{6CB2BD29-6748-4F58-8E82-8A272620A50E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{04DAE7DB-0F5C-48CD-84B9-E6827188412F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04DAE7DB-0F5C-48CD-84B9-E6827188412F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04DAE7DB-0F5C-48CD-84B9-E6827188412F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB2BD29-6748-4F58-8E82-8A272620A50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB2BD29-6748-4F58-8E82-8A272620A50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB2BD29-6748-4F58-8E82-8A272620A50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB2BD29-6748-4F58-8E82-8A272620A50E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
