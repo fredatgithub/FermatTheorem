@@ -15,7 +15,7 @@ namespace FermatN1
         {
           for (int c = 1; c < 100; c++)
           {
-            int n = 2;
+            int n = 1;
 
             if (Math.Pow(a, n) > ulong.MaxValue || Math.Pow(b, n) > ulong.MaxValue || Math.Pow(c, n) > ulong.MaxValue)
             {
@@ -46,9 +46,10 @@ namespace FermatN1
           {
             Console.WriteLine(result);
           }
+
+          Console.WriteLine($"{results.Count} counter examples found:");
         }
       }
-
       
       Console.WriteLine("Press any key to exit.");
       Console.ReadKey();
